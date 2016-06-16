@@ -33,7 +33,7 @@
 
 typedef struct aeApiState {
     int epfd;
-    struct epoll_event *events;
+    struct epoll_event *events;123
 } aeApiState;
 
 static int aeApiCreate(aeEventLoop *eventLoop) {
